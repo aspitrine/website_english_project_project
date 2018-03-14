@@ -1,0 +1,81 @@
+@font-face {
+    font-family: caviar;
+    src: url(./font/CaviarDreams.ttf);
+}
+
+body {
+    font-family: caviar;
+}
+
+header {
+    background-image: url('./../files/bg.png');
+    padding: 10px;
+    min-height: 80px;
+    max-height: 100px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.align-item {
+    text-align: center;
+    flex: 1;
+}
+
+.logo-header {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    font-size: 20px;
+    padding-top: 36px;
+    background-color: black;
+    color: #fcd27e;
+    text-transform: uppercase;
+}
+
+header a .logo-header:hover {
+    text-decoration: none !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background-image: url('./../files/bg.png');
+    height: 80px;
+    width:100%;
+}
+
+.green {
+    color: #4c893f;
+}
+
+.gray {
+    color: #aaaaaa;
+}
+
+.content {
+    margin-bottom: 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: black !important;
+}
+
+body.contact textarea {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+}
+
+body.contact input {
+    width: 100%;
+}
