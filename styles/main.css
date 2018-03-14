@@ -12,6 +12,7 @@ header {
     padding: 10px;
     min-height: 80px;
     max-height: 100px;
+    font-size: 1.4em;
 }
 
 .align {
@@ -34,7 +35,7 @@ header {
     width: 120px;
     height: 120px;
     font-size: 20px;
-    padding-top: 36px;
+    padding-top: 43px;
     background-color: black;
     color: #fcd27e;
     text-transform: uppercase;
